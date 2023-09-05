@@ -1,0 +1,4 @@
+angka = input().split()
+angka = [int(x) for x in angka]
+angka.sort()
+print(angka[0], angka [1], angka [2])
